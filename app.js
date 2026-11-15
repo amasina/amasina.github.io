@@ -244,7 +244,7 @@
     if (key) {
       const img = fadeImg({ class: 'pst-img fade', src: PST + key + '-720.webp',
         srcset: `${PST}${key}-720.webp 720w, ${PST}${key}-1080.webp 1080w`,
-        sizes: '(min-width:600px) 560px, 100vw', width: 1080, height: 1800, alt: '' });
+        sizes: '(min-width:600px) 560px, 60vw', width: 1080, height: 1800, alt: '' });   /* phones get the 720 file: half the decode memory, same look under the shade */
       poster.append(img, h('div', 'pst-shade', { 'aria-hidden': 'true' }));
     } else {
       poster.append(h('span', 'pst-ghost', { 'aria-hidden': 'true' }, [pad(n)]));
@@ -286,9 +286,14 @@
     const box = h('div', 'gal reels', null, vids.map(v => h('figure', null, null, [v])));
     menu.append(h('section', 'sec reels-sec', null, [tx(h('h3', 'gal-title'), RL, 'title'), box]));
     if (!RM && 'IntersectionObserver' in window) {
-      const vio = new IntersectionObserver(es => es.forEach(e => {
-        if (e.isIntersecting) { const pr = e.target.play(); if (pr) pr.catch(() => {}); } else e.target.pause();
-      }), { threshold: 0.6 });
+      /* only the most visible video plays (one decoder at a time keeps phones smooth) */
+      const vis = new Map();
+      const vio = new IntersectionObserver(es => {
+        es.forEach(e => vis.set(e.target, e.isIntersecting ? e.intersectionRatio : 0));
+        let best = null, br = 0.6;
+        vis.forEach((r, v) => { if (r >= br) { best = v; br = r; } });
+        vids.forEach(v => { if (v === best) { const pr = v.play(); if (pr) pr.catch(() => {}); } else if (!v.paused) v.pause(); });
+      }, { threshold: [0, 0.6, 0.8, 1] });
       vids.forEach(v => vio.observe(v));
     }
   }

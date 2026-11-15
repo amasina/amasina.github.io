@@ -193,27 +193,22 @@ img.fade.ld{opacity:1}
 .mo .cover .hero .kw{display:inline-block;animation:mo-word .8s 1.35s var(--ease) both}
 .mo .cover .pst-intro{animation:mo-fade .9s 1.65s both}
 .mo .cover .cue,.mo .cover .lt-cover{animation:mo-fade .9s 1.9s both}
-@keyframes mo-settle{from{transform:scale(1.14);filter:brightness(.35)}to{transform:none;filter:none}}
+@keyframes mo-settle{from{transform:scale(1.14);opacity:.35}to{transform:none;opacity:1}}
 @keyframes mo-logo{from{opacity:0;transform:translate(-50%,-16px)}to{opacity:1;transform:translate(-50%,0)}}
 @keyframes mo-rise{from{opacity:0;transform:translateY(34px)}to{opacity:1;transform:none}}
 @keyframes mo-word{from{opacity:0;transform:translateY(.3em) scale(.94)}to{opacity:1;transform:none}}
 @keyframes mo-fade{from{opacity:0}to{opacity:1}}
 
 /* section posters: the photo comes out of the dark, then the words */
-.mo .poster:not(.cover) .pst-img{scale:1.14;filter:brightness(.3);transition:opacity .4s,scale 2.6s var(--ease),filter 1.6s var(--ease)}
+.mo .poster:not(.cover) .pst-img{scale:1.14;opacity:.3;transition:opacity 1.6s var(--ease),scale 2.6s var(--ease)}
 .mo .poster:not(.cover) :is(.pst-top,.pst-kick,.pst-h,.pst-intro){opacity:0;translate:0 26px;transition:opacity .8s,translate 1s var(--ease)}
 .mo .poster:not(.cover) .pst-h .kw{display:inline-block;opacity:0;translate:0 .3em;transition:opacity .7s .75s,translate .9s .75s var(--ease)}
 .mo .poster:not(.cover) .pst-kick .rule{scale:0 1;transform-origin:right;transition:scale .8s .45s var(--ease)}
-.mo .poster.in .pst-img{scale:1;filter:none}
+.mo .poster.in .pst-img{scale:1;opacity:1}
 .mo .poster.in :is(.pst-top,.pst-kick,.pst-h,.pst-intro,.pst-h .kw){opacity:1;translate:0 0}
 .mo .poster.in .pst-kick .rule{scale:1 1}
 .mo .poster.in .pst-top{transition-delay:.1s}.mo .poster.in .pst-kick{transition-delay:.2s}
 .mo .poster.in .pst-h{transition-delay:.35s}.mo .poster.in .pst-intro{transition-delay:.6s}
-/* slow parallax while scrolling, where the browser supports scroll-driven animation */
-@supports (animation-timeline:view()){
-  .mo .poster:not(.cover) .pst-img{inset:-7% 0;height:114%;animation:mo-drift linear both;animation-timeline:view();animation-range:cover}
-  @keyframes mo-drift{from{translate:0 -6%}to{translate:0 6%}}
-}
 
 /* salad ticket: settles like a ticket put on the table */
 .mo .offer{opacity:0;transform:translateY(34px) rotate(-2.5deg);transition:opacity .5s,transform 1s cubic-bezier(.2,1.35,.4,1)}
