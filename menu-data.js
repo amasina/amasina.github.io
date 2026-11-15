@@ -850,8 +850,8 @@ window.MENU_DATA = {
     {
       "id": "ravioli",
       "section": "world",
-      "name_ar": "رافيولي",
-      "name_he": "רביולי",
+      "name_ar": "رافيولي جبنة",
+      "name_he": "רביולי גבינה",
       "desc_ar": "",
       "desc_he": "",
       "price": null,
