@@ -81,6 +81,7 @@ window.MENU_DATA = {
         "s06",
         "s08",
         "g03",
+        "sw_avo",
         "sw08",
         "sw38",
         "s39",
@@ -368,8 +369,8 @@ window.MENU_DATA = {
     {
       "id": "cheese_calamari_heads",
       "section": "starters",
-      "name_ar": "جبنة مع رؤوس كلماري",
-      "name_he": "גבינה עם ראשי קלמרי",
+      "name_ar": "لبنة مع رؤوس كلماري",
+      "name_he": "לבנה עם ראשי קלמרי",
       "desc_ar": "",
       "desc_he": "",
       "price": 45,
@@ -472,7 +473,7 @@ window.MENU_DATA = {
     {
       "id": "duo_fillet",
       "section": "specials",
-      "name_ar": "دويتو فيليه",
+      "name_ar": "دويت فيليه",
       "name_he": "דואט פילה",
       "desc_ar": "",
       "desc_he": "",
@@ -486,7 +487,7 @@ window.MENU_DATA = {
     {
       "id": "duo_entrecote",
       "section": "specials",
-      "name_ar": "دويتو أنتريكوت",
+      "name_ar": "دويت أنتريكوت",
       "name_he": "דואט אנטריקוט",
       "desc_ar": "",
       "desc_he": "",
@@ -500,8 +501,44 @@ window.MENU_DATA = {
     {
       "id": "duo_salmon_clams",
       "section": "specials",
-      "name_ar": "دويتو سلمون وصدف",
+      "name_ar": "دويت سلمون وصدف",
       "name_he": "דואט סלמון וצדפים",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "fillet_mokram",
+      "section": "specials",
+      "name_ar": "فيليه موكرام",
+      "name_he": "פילה מוקרם",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "chicken_mokram",
+      "section": "specials",
+      "name_ar": "صدر دجاج موكرام",
+      "name_he": "חזה עוף מוקרם",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "chicken_garlic_lemon",
+      "section": "specials",
+      "name_ar": "صدر دجاج بالثوم والليمون",
+      "name_he": "חזה עוף שום לימון",
       "desc_ar": "",
       "desc_he": "",
       "price": null,
@@ -1540,6 +1577,16 @@ window.MENU_DATA = {
       "confidence": "H",
       "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
       "use": "product illustration"
+    },
+    "sw_avo": {
+      "src_file": "work/wa_new/avocado_f.png",
+      "frame": "card",
+      "caption_ar": "سلطة أفوكادو",
+      "caption_he": "סלט אבוקדו",
+      "alt_ar": "سلطة أفوكادو مع شمندر",
+      "alt_he": "סלט אבוקדו עם סלק",
+      "confidence": "H",
+      "source": "frame from the restaurant's video, marketing group 2026-11-15"
     }
   },
   "_owner_questions": [
