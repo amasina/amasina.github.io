@@ -78,16 +78,17 @@ window.MENU_DATA = {
         "s42",
         "s41",
         "s00",
+        "sw38",
+        "sw08",
         "s06",
         "s08",
         "g03",
-        "sw_avo",
-        "sw08",
-        "sw38",
-        "s39",
         "s02",
-        "s04",
-        "g01"
+        "g01",
+        "sw_cab",
+        "sw_avo",
+        "s39",
+        "s04"
       ]
     },
     "footer": {
@@ -240,6 +241,8 @@ window.MENU_DATA = {
         "ref": "p45"
       },
       "gallery": [
+        "gn3",
+        "gn2",
         "g16",
         "g18",
         "g12",
@@ -261,7 +264,12 @@ window.MENU_DATA = {
       "chip_he": "דגים",
       "opener": {
         "type": "type"
-      }
+      },
+      "gallery": [
+        "gn4",
+        "gn5",
+        "gn6"
+      ]
     },
     {
       "id": "world",
@@ -1144,10 +1152,10 @@ window.MENU_DATA = {
       "alt_ar": "سلطة مع خبز مقلي وطحينة ورمان",
       "alt_he": "סלט עם לחם מטוגן, טחינה ורימון",
       "confidence": "H",
-      "caption_ar": "سلطة الراهب",
-      "caption_he": "סלט ראהב",
+      "caption_ar": "سلطة الراهب المشوية",
+      "caption_he": "סלט ראהב על האש",
       "note": "name confirmed by the Instagram post (Arabic); Hebrew spelling to be confirmed by owner",
-      "name_source": "owner, 2026-11-15"
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "s04": {
       "src_id": 4,
@@ -1171,7 +1179,10 @@ window.MENU_DATA = {
       ],
       "alt_ar": "كومة سلطة خضراء مع كاجو على صحن زجاجي",
       "alt_he": "סלט ירוק גבוה עם קשיו על מגש זכוכית",
-      "confidence": "H"
+      "confidence": "H",
+      "caption_ar": "سلطة شمير",
+      "caption_he": "סלט שמיר",
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "s06": {
       "src_id": 6,
@@ -1184,9 +1195,9 @@ window.MENU_DATA = {
       "alt_ar": "تبولة على أوراق خس",
       "alt_he": "טאבולה על עלי חסה",
       "confidence": "H",
-      "caption_ar": "تبولة",
-      "caption_he": "טאבולה",
-      "name_source": "owner, 2026-11-15"
+      "caption_ar": "تبولة أماسينا المميزة",
+      "caption_he": "הטאבולה המיוחדת של אמסינה",
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "s08": {
       "src_id": 8,
@@ -1285,7 +1296,10 @@ window.MENU_DATA = {
       "alt_ar": "سلطة فواكه وخضار على طبق زجاجي",
       "alt_he": "סלט פירות וירקות בצלחת זכוכית",
       "confidence": "H",
-      "use": "atmosphere"
+      "use": "atmosphere",
+      "caption_ar": "مليون دولار",
+      "caption_he": "מיליון דולר",
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "g03": {
       "src_id": 3,
@@ -1480,7 +1494,10 @@ window.MENU_DATA = {
       "alt_ar": "سلطة خضار مع زيتون بصحن عميق",
       "alt_he": "סלט ירקות עם זיתים בקערה עמוקה",
       "confidence": "H",
-      "source": "marketing WhatsApp group, 2026-11-15"
+      "source": "marketing WhatsApp group, 2026-11-15",
+      "caption_ar": "سلطة أماسينا الخاصة",
+      "caption_he": "הסלט המיוחד של אמסינה",
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "sw38": {
       "src_file": "work/wa_new/w38.jpg",
@@ -1488,7 +1505,10 @@ window.MENU_DATA = {
       "alt_ar": "سلطة بسلة خبز مقرمشة مع رمان",
       "alt_he": "סלט בסלסלת לחם פריכה עם רימונים",
       "confidence": "H",
-      "source": "marketing WhatsApp group, 2026-11-15"
+      "source": "marketing WhatsApp group, 2026-11-15",
+      "caption_ar": "سلطة الراهب المشوية",
+      "caption_he": "סלט ראהב על האש",
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "d_cola_small": {
       "src_file": "stock/drinks/cola_small.jpg",
@@ -1587,6 +1607,61 @@ window.MENU_DATA = {
       "alt_he": "סלט אבוקדו עם סלק",
       "confidence": "H",
       "source": "frame from the restaurant's video, marketing group 2026-11-15"
+    },
+    "sw_cab": {
+      "src_file": "work/wa_new2/n7.jpg",
+      "frame": "card",
+      "caption_ar": "ملفوف صيني مع المكسرات",
+      "caption_he": "כרוב סיני עם אגוזים",
+      "alt_ar": "ملفوف صيني مع زبيب ومكسرات",
+      "alt_he": "כרוב סיני עם צימוקים ואגוזים",
+      "confidence": "H",
+      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
+    },
+    "gn2": {
+      "src_file": "work/wa_new2/n2.jpg",
+      "frame": "card",
+      "alt_ar": "ضلوع لحم مشوية مع بصل",
+      "alt_he": "צלעות בשר צלויות עם בצל",
+      "confidence": "H",
+      "use": "atmosphere",
+      "source": "marketing group 2026-11-15"
+    },
+    "gn3": {
+      "src_file": "work/wa_new2/n3.jpg",
+      "frame": "card",
+      "alt_ar": "تي بون وتوماهوك على لوح خشب",
+      "alt_he": "טי-בון וטומהוק על קרש",
+      "confidence": "H",
+      "use": "atmosphere",
+      "source": "marketing group 2026-11-15"
+    },
+    "gn4": {
+      "src_file": "work/wa_new2/n4.jpg",
+      "frame": "card",
+      "alt_ar": "بحريات مشكّلة بالصلصة",
+      "alt_he": "פירות ים מעורבים ברוטב",
+      "confidence": "H",
+      "use": "atmosphere",
+      "source": "marketing group 2026-11-15"
+    },
+    "gn5": {
+      "src_file": "work/wa_new2/n5.jpg",
+      "frame": "card",
+      "alt_ar": "سلمون مشوي مع ليمون",
+      "alt_he": "סלמון צלוי עם לימון",
+      "confidence": "H",
+      "use": "atmosphere",
+      "source": "marketing group 2026-11-15"
+    },
+    "gn6": {
+      "src_file": "work/wa_new2/n6.jpg",
+      "frame": "card",
+      "alt_ar": "سلمون بالسمسم",
+      "alt_he": "סלמון בשומשום",
+      "confidence": "H",
+      "use": "atmosphere",
+      "source": "marketing group 2026-11-15"
     }
   },
   "_owner_questions": [
