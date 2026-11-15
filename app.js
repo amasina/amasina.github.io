@@ -29,7 +29,6 @@
   const get = path => path.split('.').reduce((o, k) => (o == null ? o : o[k]), D);
   const isNum = v => typeof v === 'number' && isFinite(v);
   const pad = n => String(n).padStart(2, '0');
-  const TOTAL = pad(D.sections.length);
 
   function h(tag, cls, attrs, kids) {
     const el = document.createElement(tag);
@@ -99,7 +98,7 @@
     return h('div', 'brand', null, [img, bind(h('span', 'slogan', { 'aria-hidden': 'true' }), () => pick(M.brand, 'slogan'))]);
   }
   function posterTop(n) {
-    return [brand(), h('bdi', 'pst-idx num', { dir: 'ltr', 'aria-hidden': 'true' }, [h('b', null, null, [pad(n)]), ' / ' + TOTAL])];
+    return [brand()];   /* no photo counters (owner's request) */
   }
   $('#top-salads').append(...posterTop(1));
 
@@ -152,10 +151,9 @@
   /* photo strips: salads (named ones carry a caption), one per section, and the kitchen strip */
   function strip(keys, el) {
     const box = el || h('div', 'gal');
-    keys.filter(k => P[k]).forEach((k, i, all) => {
+    keys.filter(k => P[k]).forEach(k => {
       const fig = h('figure', null, null, [
-        h('div', 'ph', null, [photoImg(k, '(min-width:600px) 420px, 76vw', [360, 720], 1080, 1350)]),
-        h('bdi', 'gnum num', { dir: 'ltr', 'aria-hidden': 'true' }, [pad(i + 1) + ' / ' + pad(all.length)])
+        h('div', 'ph', null, [photoImg(k, '(min-width:600px) 420px, 76vw', [360, 720], 1080, 1350)])
       ]);
       if (P[k].caption_ar || P[k].caption_he) fig.append(tx(h('figcaption'), P[k], 'caption', { hide: true }));
       box.append(fig);
