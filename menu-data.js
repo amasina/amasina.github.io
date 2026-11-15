@@ -84,11 +84,11 @@ window.MENU_DATA = {
         "s08",
         "g03",
         "s02",
+        "s04",
         "g01",
-        "sw_cab",
-        "sw_avo",
         "s39",
-        "s04"
+        "sw_cab",
+        "sw_avo"
       ]
     },
     "footer": {
@@ -1167,7 +1167,10 @@ window.MENU_DATA = {
       ],
       "alt_ar": "سلطة خضراء مع لوز في وعاء أسود",
       "alt_he": "סלט ירוק עם שקדים בקערה שחורה",
-      "confidence": "H"
+      "confidence": "H",
+      "caption_ar": "سلطة شمير",
+      "caption_he": "סלט שמיר",
+      "name_source": "owner 2026-11-15"
     },
     "s02": {
       "src_id": 2,
@@ -1195,8 +1198,8 @@ window.MENU_DATA = {
       "alt_ar": "تبولة على أوراق خس",
       "alt_he": "טאבולה על עלי חסה",
       "confidence": "H",
-      "caption_ar": "تبولة أماسينا المميزة",
-      "caption_he": "הטאבולה המיוחדת של אמסינה",
+      "caption_ar": "سلطة تبولة أماسينا المميزة",
+      "caption_he": "סלט טאבולה המיוחד של אמסינה",
       "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "s08": {
@@ -1249,8 +1252,8 @@ window.MENU_DATA = {
     "s42": {
       "src_id": 42,
       "frame": "card",
-      "caption_ar": "ملفوف مع الأناناس",
-      "caption_he": "כרוב עם אננס",
+      "caption_ar": "سلطة ملفوف مع الأناناس",
+      "caption_he": "סלט כרוב עם אננס",
       "alt_ar": "سلطة ملفوف مع شرائح أناناس",
       "alt_he": "סלט כרוב עם רצועות אננס",
       "confidence": "H",
@@ -1259,8 +1262,8 @@ window.MENU_DATA = {
     "s41": {
       "src_id": 41,
       "frame": "card",
-      "caption_ar": "فتوش",
-      "caption_he": "פטוש",
+      "caption_ar": "سلطة فتوش",
+      "caption_he": "סלט פטוש",
       "alt_ar": "فتوش مع جبنة مبشورة",
       "alt_he": "פטוש עם גבינה מגורדת",
       "confidence": "H",
@@ -1276,7 +1279,10 @@ window.MENU_DATA = {
       ],
       "alt_ar": "سلطة خضراء مع تين ومكسرات",
       "alt_he": "סלט ירוק עם תאנה ואגוזים",
-      "confidence": "H"
+      "confidence": "H",
+      "caption_ar": "سلطة مليون دولار",
+      "caption_he": "סלט מיליון דולר",
+      "name_source": "owner 2026-11-15"
     },
     "s11": {
       "src_id": 11,
@@ -1297,8 +1303,8 @@ window.MENU_DATA = {
       "alt_he": "סלט פירות וירקות בצלחת זכוכית",
       "confidence": "H",
       "use": "atmosphere",
-      "caption_ar": "مليون دولار",
-      "caption_he": "מיליון דולר",
+      "caption_ar": "سلطة مليون دولار",
+      "caption_he": "סלט מיליון דולר",
       "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "g03": {
@@ -1496,7 +1502,7 @@ window.MENU_DATA = {
       "confidence": "H",
       "source": "marketing WhatsApp group, 2026-11-15",
       "caption_ar": "سلطة أماسينا الخاصة",
-      "caption_he": "הסלט המיוחד של אמסינה",
+      "caption_he": "סלט אמסינה המיוחד",
       "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
     },
     "sw38": {
@@ -1611,8 +1617,8 @@ window.MENU_DATA = {
     "sw_cab": {
       "src_file": "work/wa_new2/n7.jpg",
       "frame": "card",
-      "caption_ar": "ملفوف صيني مع المكسرات",
-      "caption_he": "כרוב סיני עם אגוזים",
+      "caption_ar": "سلطة ملفوف صيني مع المكسرات",
+      "caption_he": "סלט כרוב סיני עם אגוזים",
       "alt_ar": "ملفوف صيني مع زبيب ومكسرات",
       "alt_he": "כרוב סיני עם צימוקים ואגוזים",
       "confidence": "H",
