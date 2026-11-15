@@ -265,7 +265,7 @@
     const el = h('section', 'sec', { id: sec.id, 'aria-labelledby': 'h-' + sec.id }, [
       poster, notes, h('ol', 'dl', null, items.map((it, k) => dish(it, k + 1)))
     ]);
-    if (sec.gallery && sec.gallery.length) el.append(tx(h('h3', 'gal-title'), U, 'strip_title'), strip(sec.gallery));
+    if (sec.gallery && sec.gallery.length) el.append(tx(h('h3', 'gal-title'), sec.gallery_title_ar ? sec : U, sec.gallery_title_ar ? 'gallery_title' : 'strip_title'), strip(sec.gallery));
     menu.append(el);
   });
 

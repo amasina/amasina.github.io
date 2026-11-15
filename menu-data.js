@@ -278,6 +278,32 @@ window.MENU_DATA = {
       "opener": {
         "type": "type"
       }
+    },
+    {
+      "id": "drinks",
+      "title_ar": "مشروبات",
+      "title_he": "משקאות",
+      "headline_ar": "مشروبات",
+      "headline_he": "משקאות",
+      "tagline_ar": "",
+      "tagline_he": "",
+      "chip_ar": "مشروبات",
+      "chip_he": "משקאות",
+      "opener": {
+        "type": "type"
+      },
+      "gallery": [
+        "d_cola_small",
+        "d_cola_large",
+        "d_cola_zero",
+        "d_fanta",
+        "d_sprite",
+        "d_soda",
+        "d_juice",
+        "d_lemonade_jug"
+      ],
+      "gallery_title_ar": "مشروباتنا",
+      "gallery_title_he": "המשקאות שלנו"
     }
   ],
   "items": [
@@ -849,6 +875,102 @@ window.MENU_DATA = {
       ],
       "photo": null,
       "badges": []
+    },
+    {
+      "id": "cola_small",
+      "section": "drinks",
+      "name_ar": "كولا صغير",
+      "name_he": "קולה קטן",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "cola_large",
+      "section": "drinks",
+      "name_ar": "كولا كبير",
+      "name_he": "קולה גדול",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "cola_zero",
+      "section": "drinks",
+      "name_ar": "كولا زيرو",
+      "name_he": "קולה זירו",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "fanta",
+      "section": "drinks",
+      "name_ar": "فانتا",
+      "name_he": "פאנטה",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "sprite",
+      "section": "drinks",
+      "name_ar": "سبرايت",
+      "name_he": "ספרייט",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "soda",
+      "section": "drinks",
+      "name_ar": "صودا",
+      "name_he": "סודה",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "juice",
+      "section": "drinks",
+      "name_ar": "عصير",
+      "name_he": "מיץ",
+      "desc_ar": "اسألوا النادل عن الأنواع",
+      "desc_he": "שאלו את המלצר על הטעמים",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "lemonade_jug",
+      "section": "drinks",
+      "name_ar": "إبريق ليمونادا",
+      "name_he": "קנקן לימונדה",
+      "desc_ar": "إبريق للطاولة كلها",
+      "desc_he": "קנקן לכל השולחן",
+      "price": null,
+      "flags": [],
+      "photo": null,
+      "badges": []
     }
   ],
   "photos": {
@@ -1335,6 +1457,94 @@ window.MENU_DATA = {
       "alt_he": "סלט בסלסלת לחם פריכה עם רימונים",
       "confidence": "H",
       "source": "marketing WhatsApp group, 2026-11-15"
+    },
+    "d_cola_small": {
+      "src_file": "stock/drinks/cola_small.jpg",
+      "frame": "card",
+      "caption_ar": "كولا صغير",
+      "caption_he": "קולה קטן",
+      "alt_ar": "كولا صغير",
+      "alt_he": "קולה קטן",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_cola_large": {
+      "src_file": "stock/drinks/cola_large.jpg",
+      "frame": "card",
+      "caption_ar": "كولا كبير",
+      "caption_he": "קולה גדול",
+      "alt_ar": "كولا كبير",
+      "alt_he": "קולה גדול",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_cola_zero": {
+      "src_file": "stock/drinks/cola_zero.jpg",
+      "frame": "card",
+      "caption_ar": "كولا زيرو",
+      "caption_he": "קולה זירו",
+      "alt_ar": "كولا زيرو",
+      "alt_he": "קולה זירו",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_fanta": {
+      "src_file": "stock/drinks/fanta.jpg",
+      "frame": "card",
+      "caption_ar": "فانتا",
+      "caption_he": "פאנטה",
+      "alt_ar": "فانتا",
+      "alt_he": "פאנטה",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_sprite": {
+      "src_file": "stock/drinks/sprite.jpg",
+      "frame": "card",
+      "caption_ar": "سبرايت",
+      "caption_he": "ספרייט",
+      "alt_ar": "سبرايت",
+      "alt_he": "ספרייט",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_soda": {
+      "src_file": "stock/drinks/soda.jpg",
+      "frame": "card",
+      "caption_ar": "صودا",
+      "caption_he": "סודה",
+      "alt_ar": "صودا",
+      "alt_he": "סודה",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_juice": {
+      "src_file": "stock/drinks/juice.jpg",
+      "frame": "card",
+      "caption_ar": "عصير",
+      "caption_he": "מיץ",
+      "alt_ar": "عصير",
+      "alt_he": "מיץ",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
+    },
+    "d_lemonade_jug": {
+      "src_file": "stock/drinks/lemonade_jug.jpg",
+      "frame": "card",
+      "caption_ar": "إبريق ليمونادا",
+      "caption_he": "קנקן לימונדה",
+      "alt_ar": "إبريق ليمونادا",
+      "alt_he": "קנקן לימונדה",
+      "confidence": "H",
+      "source": "Unsplash, free licence; see stock/SOURCES_drinks.txt",
+      "use": "product illustration"
     }
   },
   "_owner_questions": [
