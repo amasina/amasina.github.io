@@ -75,7 +75,7 @@ html:lang(he) .pst-h{font-size:clamp(42px,12vw,60px);line-height:1.08}
 /* cover specifics */
 .cover{min-height:var(--sh,100svh)}
 .cover .kw,.pst-h .kw{white-space:nowrap}
-.cover .pst-img{object-position:50% 30%}
+.cover .pst-img{inset:11% 0 0;height:89%;object-position:50% 20%}   /* photo starts below the logo so the chef's face stays clear */
 .pst-logo{position:absolute;top:calc(env(safe-area-inset-top) + 18px);left:50%;transform:translateX(-50%)}
 .lt-cover{position:absolute;top:calc(env(safe-area-inset-top) + 12px);inset-inline-end:12px;border:1px solid var(--hair);border-radius:2px;background:rgba(0,0,0,.35)}
 .cover .pst-txt{padding-bottom:84px;text-align:center}
@@ -172,7 +172,7 @@ html:lang(he) .gal figcaption{font-size:22px}
 .brand{display:flex;flex-direction:column;align-items:center}
 .brand img{display:block;width:100%;height:auto}
 .brand .slogan{margin-top:.2em;font:400 calc(var(--bw,180px)*.1)/1.2 var(--f-display);color:var(--tx);white-space:nowrap}
-.pst-logo.brand{--bw:min(40vw,190px);width:var(--bw)}
+.pst-logo.brand{--bw:min(34vw,160px);width:var(--bw)}
 .pst-top .brand{--bw:min(30vw,128px);width:var(--bw)}
 .foot-logo.brand{--bw:min(60vw,260px);width:var(--bw)}
 html:lang(he) .brand .slogan{font-size:calc(var(--bw,180px)*.095)}
