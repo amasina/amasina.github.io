@@ -1294,7 +1294,7 @@ window.MENU_DATA = {
       "alt_he": "סלט ירוק עם פירות יער",
       "confidence": "H",
       "use": "atmosphere",
-      "caption_ar": "جرجير",
+      "caption_ar": "سلطة جرجير",
       "caption_he": "סלט רוקט",
       "name_source": "owner, 2026-11-15"
     },
