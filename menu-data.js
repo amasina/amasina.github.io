@@ -77,16 +77,16 @@ window.MENU_DATA = {
         "s38",
         "s42",
         "s41",
+        "s00",
+        "s06",
+        "s08",
+        "g03",
         "sw08",
         "sw38",
         "s39",
-        "s00",
         "s02",
         "s04",
-        "s06",
-        "s08",
-        "g01",
-        "g03"
+        "g01"
       ]
     },
     "footer": {
@@ -1107,9 +1107,10 @@ window.MENU_DATA = {
       "alt_ar": "سلطة مع خبز مقلي وطحينة ورمان",
       "alt_he": "סלט עם לחם מטוגן, טחינה ורימון",
       "confidence": "H",
-      "caption_ar": "",
-      "caption_he": "",
-      "note": "name confirmed by the Instagram post (Arabic); Hebrew spelling to be confirmed by owner"
+      "caption_ar": "سلطة الراهب",
+      "caption_he": "סלט ראהב",
+      "note": "name confirmed by the Instagram post (Arabic); Hebrew spelling to be confirmed by owner",
+      "name_source": "owner, 2026-11-15"
     },
     "s04": {
       "src_id": 4,
@@ -1145,7 +1146,10 @@ window.MENU_DATA = {
       ],
       "alt_ar": "تبولة على أوراق خس",
       "alt_he": "טאבולה על עלי חסה",
-      "confidence": "H"
+      "confidence": "H",
+      "caption_ar": "تبولة",
+      "caption_he": "טאבולה",
+      "name_source": "owner, 2026-11-15"
     },
     "s08": {
       "src_id": 8,
@@ -1157,7 +1161,10 @@ window.MENU_DATA = {
       ],
       "alt_ar": "سلطة بندورة شيري وجوز في سلة خبز مقلي",
       "alt_he": "סלט עגבניות שרי ואגוזי מלך בסלסלת לחם מטוגן",
-      "confidence": "H"
+      "confidence": "H",
+      "caption_ar": "سلطة شيري حارّة",
+      "caption_he": "סלט שרי חריף",
+      "name_source": "owner, 2026-11-15"
     },
     "s09": {
       "src_id": 9,
@@ -1249,7 +1256,10 @@ window.MENU_DATA = {
       "alt_ar": "سلطة خضراء مع توت",
       "alt_he": "סלט ירוק עם פירות יער",
       "confidence": "H",
-      "use": "atmosphere"
+      "use": "atmosphere",
+      "caption_ar": "جرجير",
+      "caption_he": "סלט רוקט",
+      "name_source": "owner, 2026-11-15"
     },
     "g05": {
       "src_id": 5,
