@@ -260,10 +260,7 @@ window.MENU_DATA = {
       "chip_he": "דגים",
       "opener": {
         "type": "type"
-      },
-      "gallery": [
-        "g48"
-      ]
+      }
     },
     {
       "id": "world",
@@ -291,19 +288,7 @@ window.MENU_DATA = {
       "chip_he": "משקאות",
       "opener": {
         "type": "type"
-      },
-      "gallery": [
-        "d_cola_small",
-        "d_cola_large",
-        "d_cola_zero",
-        "d_fanta",
-        "d_sprite",
-        "d_soda",
-        "d_juice",
-        "d_lemonade_jug"
-      ],
-      "gallery_title_ar": "مشروباتنا",
-      "gallery_title_he": "המשקאות שלנו"
+      }
     }
   ],
   "items": [
