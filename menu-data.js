@@ -658,12 +658,9 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "pargit",
