@@ -83,9 +83,7 @@ window.MENU_DATA = {
         "s06",
         "s08",
         "g03",
-        "s02",
         "s04",
-        "g01",
         "s39",
         "sw_cab",
         "sw_avo"
@@ -1122,9 +1120,9 @@ window.MENU_DATA = {
       "alt_ar": "سلطة خضراء مع لوز في وعاء أسود",
       "alt_he": "סלט ירוק עם שקדים בקערה שחורה",
       "confidence": "H",
-      "caption_ar": "سلطة شمير",
-      "caption_he": "סלט שמיר",
-      "name_source": "owner 2026-11-15"
+      "caption_ar": "شمير",
+      "caption_he": "שמיר",
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "s02": {
       "src_id": 2,
@@ -1152,9 +1150,9 @@ window.MENU_DATA = {
       "alt_ar": "تبولة على أوراق خس",
       "alt_he": "טאבולה על עלי חסה",
       "confidence": "H",
-      "caption_ar": "سلطة تبولة أماسينا المميزة",
-      "caption_he": "סלט טאבולה המיוחד של אמסינה",
-      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
+      "caption_ar": "تبولة أماسينا المميزة",
+      "caption_he": "הטאבולה המיוחדת של אמסינה",
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "s08": {
       "src_id": 8,
@@ -1167,9 +1165,9 @@ window.MENU_DATA = {
       "alt_ar": "سلطة بندورة شيري وجوز في سلة خبز مقلي",
       "alt_he": "סלט עגבניות שרי ואגוזי מלך בסלסלת לחם מטוגן",
       "confidence": "H",
-      "caption_ar": "سلطة شيري حارّة",
-      "caption_he": "סלט שרי חריף",
-      "name_source": "owner, 2026-11-15"
+      "caption_ar": "شيري حارّة",
+      "caption_he": "שרי חריף",
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "s09": {
       "src_id": 9,
@@ -1196,32 +1194,32 @@ window.MENU_DATA = {
     "s38": {
       "src_id": 38,
       "frame": "card",
-      "caption_ar": "سلطة الحديقة البنفسجية",
-      "caption_he": "סלט הגינה הסגולה",
+      "caption_ar": "الحديقة البنفسجية",
+      "caption_he": "הגינה הסגולה",
       "alt_ar": "سلطة الحديقة البنفسجية: ملفوف أحمر وفجل",
       "alt_he": "סלט הגינה הסגולה: כרוב סגול וצנונית",
       "confidence": "H",
-      "name_source": "restaurant marketing chat, 2026-11-15"
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "s42": {
       "src_id": 42,
       "frame": "card",
-      "caption_ar": "سلطة ملفوف مع الأناناس",
-      "caption_he": "סלט כרוב עם אננס",
+      "caption_ar": "ملفوف مع الأناناس",
+      "caption_he": "כרוב עם אננס",
       "alt_ar": "سلطة ملفوف مع شرائح أناناس",
       "alt_he": "סלט כרוב עם רצועות אננס",
       "confidence": "H",
-      "name_source": "restaurant marketing chat, 2026-11-15"
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "s41": {
       "src_id": 41,
       "frame": "card",
-      "caption_ar": "سلطة فتوش",
-      "caption_he": "סלט פטוש",
+      "caption_ar": "فتوش",
+      "caption_he": "פטוש",
       "alt_ar": "فتوش مع جبنة مبشورة",
       "alt_he": "פטוש עם גבינה מגורדת",
       "confidence": "H",
-      "name_source": "restaurant marketing chat, 2026-11-15"
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "s39": {
       "src_id": 39,
@@ -1268,9 +1266,9 @@ window.MENU_DATA = {
       "alt_he": "סלט ירוק עם פירות יער",
       "confidence": "H",
       "use": "atmosphere",
-      "caption_ar": "سلطة جرجير",
-      "caption_he": "סלט רוקט",
-      "name_source": "owner, 2026-11-15"
+      "caption_ar": "جرجير",
+      "caption_he": "רוקט",
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "g05": {
       "src_id": 5,
@@ -1561,22 +1559,23 @@ window.MENU_DATA = {
     "sw_avo": {
       "src_file": "work/wa_new/avocado_f.png",
       "frame": "card",
-      "caption_ar": "سلطة أفوكادو",
-      "caption_he": "סלט אבוקדו",
+      "caption_ar": "أفوكادو",
+      "caption_he": "אבוקדו",
       "alt_ar": "سلطة أفوكادو مع شمندر",
       "alt_he": "סלט אבוקדו עם סלק",
       "confidence": "H",
-      "source": "frame from the restaurant's video, marketing group 2026-11-15"
+      "source": "frame from the restaurant's video, marketing group 2026-11-15",
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "sw_cab": {
       "src_file": "work/wa_new2/n7.jpg",
       "frame": "card",
-      "caption_ar": "سلطة ملفوف صيني مع المكسرات",
-      "caption_he": "סלט כרוב סיני עם אגוזים",
+      "caption_ar": "ملفوف صيني مع المكسرات",
+      "caption_he": "כרוב סיני עם אגוזים",
       "alt_ar": "ملفوف صيني مع زبيب ومكسرات",
       "alt_he": "כרוב סיני עם צימוקים ואגוזים",
       "confidence": "H",
-      "name_source": "Tasneem, marketing group 2026-11-15 16:48-17:01"
+      "name_source": "Tasneem, marketing group voice notes 2026-11-17 23:49-23:50"
     },
     "gn2": {
       "src_file": "work/wa_new2/n2.jpg",
