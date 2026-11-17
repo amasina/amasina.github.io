@@ -365,7 +365,7 @@ window.MENU_DATA = {
       "name_he": "גבינה מטוגנת",
       "desc_ar": "",
       "desc_he": "",
-      "price": 30,
+      "price": 25,
       "flags": [
         "photo_needs_owner_ok"
       ],
@@ -405,7 +405,7 @@ window.MENU_DATA = {
       "name_he": "מוזה טלה",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 145,
       "flags": [],
       "owner_he": "מוזה טלה",
       "photo": null,
@@ -420,7 +420,7 @@ window.MENU_DATA = {
       "name_he": "פילה עם כבד אווז",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 180,
       "flags": [],
       "photo": null,
       "badges": []
@@ -432,7 +432,7 @@ window.MENU_DATA = {
       "name_he": "פילה שלם",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 540,
       "flags": [
         "name_uncertain"
       ],
@@ -449,7 +449,7 @@ window.MENU_DATA = {
       "name_he": "אנטריקוט בחמאת שום",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 245,
       "flags": [],
       "photo": null,
       "badges": []
@@ -461,7 +461,7 @@ window.MENU_DATA = {
       "name_he": "פילה בחמאת שום",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 245,
       "flags": [],
       "photo": null,
       "badges": []
@@ -473,7 +473,7 @@ window.MENU_DATA = {
       "name_he": "טי בון בחמאת שום",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 220,
       "flags": [],
       "photo": null,
       "badges": []
@@ -485,7 +485,7 @@ window.MENU_DATA = {
       "name_he": "דואט פילה",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 200,
       "flags": [
         "meaning_unclear"
       ],
@@ -499,7 +499,7 @@ window.MENU_DATA = {
       "name_he": "דואט אנטריקוט",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 200,
       "flags": [
         "meaning_unclear"
       ],
@@ -513,7 +513,7 @@ window.MENU_DATA = {
       "name_he": "דואט סלמון וצדפים",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 180,
       "flags": [],
       "photo": null,
       "badges": []
@@ -525,7 +525,19 @@ window.MENU_DATA = {
       "name_he": "פילה מוקרם",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 130,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "king_shrimp",
+      "section": "specials",
+      "name_ar": "شريمبس الملك",
+      "name_he": "שרימפס המלך",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": 130,
       "flags": [],
       "photo": null,
       "badges": []
@@ -585,14 +597,11 @@ window.MENU_DATA = {
         "name_uncertain",
         "photo_needs_owner_ok"
       ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
       "desc_short_ar": "",
       "desc_short_he": "",
-      "badges": []
+      "badges": [],
+      "price": 140
     },
     {
       "id": "entrecote",
@@ -616,17 +625,14 @@ window.MENU_DATA = {
     {
       "id": "fillet",
       "section": "meats",
-      "name_ar": "فيليه",
-      "name_he": "פילה",
+      "name_ar": "أسياخ فيليه",
+      "name_he": "שיפודי פילה",
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 120
     },
     {
       "id": "kebab",
@@ -638,14 +644,11 @@ window.MENU_DATA = {
       "flags": [
         "photo_needs_owner_ok"
       ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
       "desc_short_ar": "",
       "desc_short_he": "",
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "chicken_breast",
@@ -670,12 +673,9 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "salmon",
@@ -685,12 +685,9 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "shrimp_fried",
@@ -702,14 +699,11 @@ window.MENU_DATA = {
       "flags": [
         "photo_needs_owner_ok"
       ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
       "desc_short_ar": "",
       "desc_short_he": "",
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "shrimp_cooked",
@@ -722,14 +716,11 @@ window.MENU_DATA = {
         "sauce_unknown",
         "photo_needs_owner_ok"
       ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
       "desc_short_ar": "",
       "desc_short_he": "",
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "calamari_fried",
@@ -739,12 +730,9 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "calamari_cooked",
@@ -756,12 +744,9 @@ window.MENU_DATA = {
       "flags": [
         "sauce_unknown"
       ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "half_calamari_half_shrimp",
@@ -771,12 +756,9 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "denis",
@@ -785,15 +767,10 @@ window.MENU_DATA = {
       "name_he": "דניס",
       "desc_ar": "",
       "desc_he": "",
-      "flags": [
-        "weights_unconfirmed"
-      ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
+      "flags": [],
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "levrek",
@@ -802,15 +779,10 @@ window.MENU_DATA = {
       "name_he": "לברק",
       "desc_ar": "",
       "desc_he": "",
-      "flags": [
-        "weights_unconfirmed"
-      ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
+      "flags": [],
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "clams",
@@ -819,34 +791,23 @@ window.MENU_DATA = {
       "name_he": "צדפים",
       "desc_ar": "",
       "desc_he": "",
-      "flags": [
-        "weights_unconfirmed"
-      ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
+      "flags": [],
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 95
     },
     {
       "id": "seafood_mix",
       "section": "fish",
-      "name_ar": "مشكّل بحري",
-      "name_he": "מיקס פירות ים",
+      "name_ar": "ميكس شريمبس وكلماري",
+      "name_he": "מיקס שרימפס וקלמרי",
       "desc_ar": "",
       "desc_he": "",
-      "flags": [
-        "name_uncertain",
-        "weights_unconfirmed"
-      ],
+      "flags": [],
       "owner_he": "מיקס",
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 100
     },
     {
       "id": "sea_fish",
@@ -856,15 +817,11 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [
-        "name_uncertain",
-        "weights_unconfirmed"
+        "name_uncertain"
       ],
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
-      "badges": []
+      "badges": [],
+      "price": 25
     },
     {
       "id": "shrimp_noodles",
@@ -873,7 +830,7 @@ window.MENU_DATA = {
       "name_he": "נודלס שרימפס",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 95,
       "flags": [],
       "photo": null,
       "badges": []
@@ -885,7 +842,7 @@ window.MENU_DATA = {
       "name_he": "פטוצ'יני",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 95,
       "flags": [
         "sauce_unknown"
       ],
@@ -899,7 +856,7 @@ window.MENU_DATA = {
       "name_he": "רביולי גבינה",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 70,
       "flags": [
         "filling_unknown"
       ],
