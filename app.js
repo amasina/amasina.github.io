@@ -12,7 +12,7 @@
   const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const IMG = D.img_dir || 'assets/img/';
   const PST = 'assets/img/a/';
-  const WEIGHTS = ['250', '330'];
+  const WEIGHTS = ['250', '350'];
   const TITLES = { ar: 'أماسينا | المنيو', he: 'אמסינה | תפריט' };
   /* section posters: atmosphere photos only, never labelled as a dish; null = typographic poster */
   const POSTERS = { starters: 'pst-chef', specials: 'pst-cut', meats: 'pst-meat', fish: 'pst-sea', world: 'pst-world' };

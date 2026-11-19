@@ -3,7 +3,7 @@
  * AR: لتغيير سعر: بدّلوا كلمة null برقم، مثلًا "250": 120  أو  "price": 45  (بدون علامة ₪). احفظوا الملف وارفعوه من جديد.
  * HE: לעדכון מחיר: החליפו את המילה null במספר, למשל "250": 120  או  "price": 45  (בלי סימן ₪). שמרו והעלו מחדש.
  * EN: to set a price replace null with a number, e.g. "250": 120  or  "price": 45  (no ₪ sign).
- * "250" = price for 250 g, "330" = price for 330 g. A photo appears when "photo" names a key of "photos".
+ * "250" = price for 250 g, "350" = price for 350 g. A photo appears when "photo" names a key of "photos".
  * Keep the commas and quotes exactly as they are.
  */
 window.MENU_DATA = {
@@ -13,7 +13,7 @@ window.MENU_DATA = {
     "status": "v2: copy and photos per proposals/v2/DECISIONS.md; open owner questions in DECISIONS.md section 4",
     "rules": [
       "Prices only as given by the owner; null = not given, never invent.",
-      "Unweighted items use 'price'. Weighted items use 'prices': {'250': x, '330': y}.",
+      "Unweighted items use 'price'. Weighted items use 'prices': {'250': x, '350': y}.",
       "*phrase* = brand red; max one red phrase of <= 2 words per headline.",
       "Western digits in both languages. Currency sign after the number inside <bdi dir=ltr>.",
       "photo = key into 'photos' or null."
@@ -110,8 +110,8 @@ window.MENU_DATA = {
       "currency": "₪",
       "price_note_ar": "اسألوا النادل عن الأسعار",
       "price_note_he": "שאלו את המלצר על המחירים",
-      "weight_note_ar": "بالوزن 250 أو 330 غم",
-      "weight_note_he": "במשקל 250 או 330 גרם",
+      "weight_note_ar": "بالوزن 250 أو 350 غم",
+      "weight_note_he": "במשקל 250 או 350 גרם",
       "price_aria_ar": "السعر: اسألوا النادل",
       "price_aria_he": "מחיר: שאלו את המלצר",
       "kg1_ar": "1 كغم",
@@ -546,7 +546,7 @@ window.MENU_DATA = {
       "name_he": "חזה עוף מוקרם",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 110,
       "flags": [],
       "photo": null,
       "badges": []
@@ -558,7 +558,7 @@ window.MENU_DATA = {
       "name_he": "חזה עוף שום לימון",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 95,
       "flags": [],
       "photo": null,
       "badges": []
@@ -574,13 +574,34 @@ window.MENU_DATA = {
         "photo_needs_owner_ok"
       ],
       "owner_he": "משקל (מעורב)",
-      "prices": {
-        "250": null,
-        "330": null
-      },
       "photo": null,
       "desc_short_ar": "",
       "desc_short_he": "",
+      "badges": [],
+      "price": 130
+    },
+    {
+      "id": "mixed_deluxe",
+      "section": "meats",
+      "name_ar": "مشكّل ديلوكس",
+      "name_he": "מיקס דלוקס",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": 150,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "amasina_farm",
+      "section": "meats",
+      "name_ar": "مزرعة أماسينا لـ4 أشخاص",
+      "name_he": "חוות אמסינה ל-4 סועדים",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": null,
       "badges": []
     },
     {
@@ -611,8 +632,8 @@ window.MENU_DATA = {
         "photo_needs_owner_ok"
       ],
       "prices": {
-        "250": null,
-        "330": null
+        "250": 120,
+        "350": 150
       },
       "photo": null,
       "desc_short_ar": "",
@@ -804,6 +825,18 @@ window.MENU_DATA = {
       "price": 100
     },
     {
+      "id": "shrimp_mokram",
+      "section": "fish",
+      "name_ar": "شريمبس موكرام",
+      "name_he": "שרימפס מוקרם",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": 110,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
       "id": "sea_fish",
       "section": "fish",
       "name_ar": "سمك بحر",
@@ -830,16 +863,40 @@ window.MENU_DATA = {
       "badges": []
     },
     {
+      "id": "chicken_noodles",
+      "section": "world",
+      "name_ar": "نودلز مع صدر دجاج",
+      "name_he": "נודלס עם חזה עוף",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": 95,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
       "id": "fettuccine",
       "section": "world",
-      "name_ar": "فيتوتشيني",
-      "name_he": "פטוצ'יני",
+      "name_ar": "فيتوتشيني مع صدر دجاج",
+      "name_he": "פטוצ'יני עם חזה עוף",
       "desc_ar": "",
       "desc_he": "",
       "price": 95,
       "flags": [
         "sauce_unknown"
       ],
+      "photo": null,
+      "badges": []
+    },
+    {
+      "id": "fettuccine_shrimp",
+      "section": "world",
+      "name_ar": "فيتوتشيني مع شريمبس",
+      "name_he": "פטוצ'יני עם שרימפס",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": 95,
+      "flags": [],
       "photo": null,
       "badges": []
     },
@@ -864,7 +921,7 @@ window.MENU_DATA = {
       "name_he": "קולה קטן",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 12,
       "flags": [],
       "photo": null,
       "badges": []
@@ -876,7 +933,7 @@ window.MENU_DATA = {
       "name_he": "קולה גדול",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 20,
       "flags": [],
       "photo": null,
       "badges": []
@@ -936,7 +993,7 @@ window.MENU_DATA = {
       "name_he": "מיץ",
       "desc_ar": "اسألوا النادل عن الأنواع",
       "desc_he": "שאלו את המלצר על הטעמים",
-      "price": null,
+      "price": 12,
       "flags": [],
       "photo": null,
       "badges": []
@@ -948,7 +1005,7 @@ window.MENU_DATA = {
       "name_he": "קנקן לימונדה",
       "desc_ar": "إبريق للطاولة كلها",
       "desc_he": "קנקן לכל השולחן",
-      "price": null,
+      "price": 30,
       "flags": [],
       "photo": null,
       "badges": []
