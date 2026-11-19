@@ -1017,7 +1017,7 @@ window.MENU_DATA = {
       "name_he": "סודה",
       "desc_ar": "",
       "desc_he": "",
-      "price": 12,
+      "price": 10,
       "flags": [],
       "photo": null,
       "badges": []
@@ -1029,7 +1029,7 @@ window.MENU_DATA = {
       "name_he": "מיץ",
       "desc_ar": "اسألوا النادل عن الأنواع",
       "desc_he": "שאלו את המלצר על הטעמים",
-      "price": 12,
+      "price": 10,
       "flags": [],
       "photo": null,
       "badges": []
