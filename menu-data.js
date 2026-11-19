@@ -738,6 +738,18 @@ window.MENU_DATA = {
       "price": 95
     },
     {
+      "id": "shrimp_tempura",
+      "section": "fish",
+      "name_ar": "شريمبس تمبورا",
+      "name_he": "שרימפס טמפורה",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": 95,
+      "flags": [],
+      "photo": null,
+      "badges": []
+    },
+    {
       "id": "calamari_fried",
       "section": "fish",
       "name_ar": "كلماري مقلي",
