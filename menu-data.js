@@ -921,7 +921,7 @@ window.MENU_DATA = {
       "name_he": "קולה קטן",
       "desc_ar": "",
       "desc_he": "",
-      "price": 12,
+      "price": 10,
       "flags": [],
       "photo": null,
       "badges": []
@@ -945,7 +945,7 @@ window.MENU_DATA = {
       "name_he": "קולה זירו קטן",
       "desc_ar": "",
       "desc_he": "",
-      "price": 12,
+      "price": 10,
       "flags": [],
       "photo": null,
       "badges": []
@@ -969,7 +969,7 @@ window.MENU_DATA = {
       "name_he": "פאנטה קטן",
       "desc_ar": "",
       "desc_he": "",
-      "price": 12,
+      "price": 10,
       "flags": [],
       "photo": null,
       "badges": []
@@ -993,7 +993,7 @@ window.MENU_DATA = {
       "name_he": "ספרייט קטן",
       "desc_ar": "",
       "desc_he": "",
-      "price": 12,
+      "price": 10,
       "flags": [],
       "photo": null,
       "badges": []
