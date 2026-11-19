@@ -599,7 +599,7 @@ window.MENU_DATA = {
       "name_he": "חוות אמסינה ל-4 סועדים",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 490,
       "flags": [],
       "photo": null,
       "badges": []
@@ -1017,7 +1017,7 @@ window.MENU_DATA = {
       "name_he": "סודה",
       "desc_ar": "",
       "desc_he": "",
-      "price": null,
+      "price": 12,
       "flags": [],
       "photo": null,
       "badges": []

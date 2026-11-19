@@ -226,7 +226,6 @@
     if (sec.id === 'salads') return;
     const n = si + 1;
     const items = D.items.filter(i => i.section === sec.id);
-    const weighted = items.some(i => i.prices);
     const vals = items.flatMap(i => (i.prices ? WEIGHTS.map(w => i.prices[w]) : [i.price]));
     const mk = (MK.sections || {})[sec.id] || {};
 
@@ -252,12 +251,6 @@
     poster.append(h('div', 'pst-top', null, posterTop(n)), h('div', 'pst-txt', null, [kick, head, intro]));
 
     const notes = h('div', 'notes');
-    if (weighted) {
-      notes.append(h('div', 'wplate', { 'aria-hidden': 'true' }, [
-        h('span', 'num', null, [WEIGHTS[0]]), h('span', 'sl', null, ['/']), h('span', 'num', null, [WEIGHTS[1]]),
-        bind(h('span', 'u'), () => pick(U, 'weight_unit'))
-      ]), tx(h('p', 'sr'), U, 'weight_note'));
-    }
     if (vals.some(v => !isNum(v))) notes.append(tx(h('p', 'note'), U, 'price_note'));
 
     const el = h('section', 'sec', { id: sec.id, 'aria-labelledby': 'h-' + sec.id }, [
@@ -372,7 +365,7 @@
 
   /* ---------- motion: mark elements as they enter; CSS animates (html.mo is unset for reduced motion) ---------- */
   if (document.documentElement.classList.contains('mo')) {
-    const els = $$('.poster:not(.cover), .offer, .chef, .gal-title, .gal figure, .note, .wplate, .d, .foot > *');
+    const els = $$('.poster:not(.cover), .offer, .chef, .gal-title, .gal figure, .note, .d, .foot > *');
     if ('IntersectionObserver' in window) {
       const io = new IntersectionObserver(es => es.forEach(e => {
         if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }

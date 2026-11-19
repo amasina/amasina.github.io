@@ -120,10 +120,6 @@ html:lang(he) .gal figcaption{font-size:22px}
 .salads{padding-bottom:12px}
 #menu>.sec{margin-top:72px}
 .notes{padding:4px var(--gutter) 0}
-.wplate{display:flex;align-items:flex-end;gap:14px;direction:ltr;justify-content:flex-end;padding:18px 0 14px;border-bottom:1px solid var(--hair)}
-.wplate .num{font-size:clamp(72px,22vw,96px);line-height:.9}
-.wplate .sl{font:400 clamp(44px,13vw,60px)/.9 var(--f-num);color:var(--tx-3)}
-.wplate .u{font:500 16px/1.2 var(--f-body);color:var(--tx-2);padding-bottom:6px}
 .note{display:flex;align-items:center;gap:10px;padding:14px 0;font:500 15px/1.45 var(--f-body);color:var(--tx-2);border-bottom:1px solid var(--hair)}
 .note::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:var(--tx-2)}
 
@@ -215,8 +211,8 @@ img.fade.ld{opacity:1}
 .mo .offer.in{opacity:1;transform:none}
 
 /* reveal: chef card, gallery, notes, weight plates, dish rows, footer */
-.mo :is(.chef,.gal-title,.gal figure,.note,.wplate,.d,.foot>*){opacity:0;translate:0 18px;transition:opacity .7s var(--ease),translate .9s var(--ease);transition-delay:calc(var(--i,0)*80ms)}
-.mo :is(.chef,.gal-title,.gal figure,.note,.wplate,.d,.foot>*).in{opacity:1;translate:0 0}
+.mo :is(.chef,.gal-title,.gal figure,.note,.d,.foot>*){opacity:0;translate:0 18px;transition:opacity .7s var(--ease),translate .9s var(--ease);transition-delay:calc(var(--i,0)*80ms)}
+.mo :is(.chef,.gal-title,.gal figure,.note,.d,.foot>*).in{opacity:1;translate:0 0}
 .mo .d .ptag{opacity:0;translate:-18px 0;transition:opacity .6s,translate .8s var(--ease);transition-delay:calc(var(--i,0)*80ms + .25s)}
 .mo .d.in .ptag{opacity:1;translate:0 0}
 
