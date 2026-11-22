@@ -141,8 +141,8 @@ html:lang(he) .gal figcaption{font-size:22px}
 .tw{display:flex;flex-direction:column;align-items:center}
 .tw-w{font:500 11px/1.2 var(--f-body)}
 
-.d.feat{grid-template-rows:auto auto}
-.feat-ph{grid-column:1 / -1;display:block;margin:0 calc(-1*var(--gutter)) 18px;aspect-ratio:4/5;overflow:hidden;background:var(--bg-2)}
+.d.feat{grid-template-columns:84px 1fr auto}
+.feat-ph{display:block;width:84px;height:84px;padding:0;border:0;border-radius:10px;overflow:hidden;background:var(--bg-2);cursor:zoom-in}
 .feat-ph img{width:100%;height:100%;object-fit:cover}
 
 /* ---------- footer ---------- */

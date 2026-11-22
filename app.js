@@ -204,7 +204,7 @@
     const ph = item.photo && P[item.photo] ? item.photo : null;
     const li = h('li', 'd' + (ph ? ' feat' : ''));
     if (ph) {
-      const btn = h('button', 'feat-ph', { type: 'button' }, [photoImg(ph, '(min-width:600px) 560px, 100vw', [720, 1080], 1080, 1350)]);
+      const btn = h('button', 'feat-ph', { type: 'button' }, [photoImg(ph, '84px', [360, 720], 1080, 1350)]);
       tx(btn, item, 'name', { attr: 'aria-label' });
       btn.addEventListener('click', () => openLb(item, btn));
       li.append(btn);

@@ -405,7 +405,7 @@ window.MENU_DATA = {
       "price": 145,
       "flags": [],
       "owner_he": "מוזה טלה",
-      "photo": null,
+      "photo": "wd_shank",
       "badges": [
         "preorder"
       ]
@@ -419,7 +419,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 180,
       "flags": [],
-      "photo": null,
+      "photo": "wd_foie",
       "badges": []
     },
     {
@@ -434,7 +434,7 @@ window.MENU_DATA = {
         "name_uncertain"
       ],
       "owner_he": "שרבול פילה 1 ק\"ג",
-      "photo": null,
+      "photo": "wd_chateau",
       "badges": [
         "kg1"
       ]
@@ -448,7 +448,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 245,
       "flags": [],
-      "photo": null,
+      "photo": "wd_entrecote_gb",
       "badges": []
     },
     {
@@ -472,7 +472,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 220,
       "flags": [],
-      "photo": null,
+      "photo": "wd_tbone",
       "badges": []
     },
     {
@@ -601,7 +601,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 490,
       "flags": [],
-      "photo": null,
+      "photo": "wd_farm",
       "badges": []
     },
     {
@@ -635,7 +635,7 @@ window.MENU_DATA = {
         "250": 120,
         "350": 150
       },
-      "photo": null,
+      "photo": "wd_entrecote",
       "desc_short_ar": "",
       "desc_short_he": "",
       "badges": []
@@ -746,7 +746,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 95,
       "flags": [],
-      "photo": null,
+      "photo": "wd_tempura",
       "badges": []
     },
     {
@@ -783,7 +783,7 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "photo": null,
+      "photo": "wd_shrimp_calamari",
       "badges": [],
       "price": 95
     },
@@ -795,7 +795,7 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "photo": null,
+      "photo": "wd_denis",
       "badges": [],
       "price": 95
     },
@@ -807,7 +807,7 @@ window.MENU_DATA = {
       "desc_ar": "",
       "desc_he": "",
       "flags": [],
-      "photo": null,
+      "photo": "wd_levrek",
       "badges": [],
       "price": 95
     },
@@ -871,7 +871,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 95,
       "flags": [],
-      "photo": null,
+      "photo": "wd_shrimp_noodles",
       "badges": []
     },
     {
@@ -909,7 +909,7 @@ window.MENU_DATA = {
       "desc_he": "",
       "price": 95,
       "flags": [],
-      "photo": null,
+      "photo": "wd_fett_shrimp",
       "badges": []
     },
     {
@@ -1725,6 +1725,71 @@ window.MENU_DATA = {
       "confidence": "H",
       "use": "atmosphere",
       "source": "marketing group 2026-11-15"
+    },
+    "wd_tbone": {
+      "alt_ar": "تي بون بالزبدة والثوم",
+      "alt_he": "טי בון בחמאת שום",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_entrecote_gb": {
+      "alt_ar": "أنتريكوت بالزبدة والثوم",
+      "alt_he": "אנטריקוט בחמאת שום",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_shrimp_noodles": {
+      "alt_ar": "نودلز شريمبس",
+      "alt_he": "נודלס שרימפס",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_foie": {
+      "alt_ar": "فيليه مع كبد إوز",
+      "alt_he": "פילה עם כבד אווז",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_farm": {
+      "alt_ar": "مزرعة أماسينا لـ4 أشخاص",
+      "alt_he": "חוות אמסינה ל-4 סועדים",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_chateau": {
+      "alt_ar": "فيليه كامل",
+      "alt_he": "פילה שלם",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_tempura": {
+      "alt_ar": "شريمبس تمبورا",
+      "alt_he": "שרימפס טמפורה",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_denis": {
+      "alt_ar": "دنيس",
+      "alt_he": "דניס",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_fett_shrimp": {
+      "alt_ar": "فيتوتشيني مع شريمبس",
+      "alt_he": "פטוצ'יני עם שרימפס",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_shank": {
+      "alt_ar": "موزة خروف",
+      "alt_he": "מוזה טלה",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_shrimp_calamari": {
+      "alt_ar": "نصف كلماري ونصف شريمبس",
+      "alt_he": "חצי קלמרי וחצי שרימפס",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_entrecote": {
+      "alt_ar": "أنتريكوت",
+      "alt_he": "אנטריקוט",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_levrek": {
+      "alt_ar": "لبراك",
+      "alt_he": "לברק",
+      "name_source": "restaurant, marketing group 2026-11-19/20"
     }
   },
   "_owner_questions": [
