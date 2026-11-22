@@ -653,6 +653,18 @@ window.MENU_DATA = {
       "price": 120
     },
     {
+      "id": "lamb_skewers",
+      "section": "meats",
+      "name_ar": "شقف خروف",
+      "name_he": "שיפודי טלה",
+      "desc_ar": "",
+      "desc_he": "",
+      "price": null,
+      "flags": [],
+      "photo": "wd_lamb_skewers",
+      "badges": []
+    },
+    {
       "id": "kebab",
       "section": "meats",
       "name_ar": "كباب",
@@ -1790,6 +1802,11 @@ window.MENU_DATA = {
       "alt_ar": "لبراك",
       "alt_he": "לברק",
       "name_source": "restaurant, marketing group 2026-11-19/20"
+    },
+    "wd_lamb_skewers": {
+      "alt_ar": "شقف خروف",
+      "alt_he": "שיפודי טלה",
+      "name_source": "restaurant, marketing group 2026-11-20"
     }
   },
   "_owner_questions": [
